@@ -284,7 +284,16 @@
         // else body;
     }
     ```     
-8.  **switch, case**範例
+8.  **switch, case**範例        
+    ```PHP      
+    <?php
+    while ($expr) {
+        // structure body
+
+    do {
+        // structure body;
+    } while ($expr);
+    ```
     ```PHP
     <?php
     switch ($expr) {
