@@ -248,6 +248,7 @@
 2. 左括弧`(`後不可有空格；右括弧`)`前不可有空格
 3. 參數list中，逗號前務必不可(MUST Not)有空格；逗號後務必(MUST)有空格       
     **範例**        
+        
     ```PHP
     <?php
     bar();
@@ -255,6 +256,7 @@
     Foo::bar($arg2, $arg3);
     ```
 4. 參數list可以斷行，每個參數(含第一個)都要斷行並有一個縮排     
+        
     ```PHP
     <?php
     $foo->bar(
@@ -410,7 +412,7 @@
        // body
     };
     ```     
-    7. 封閉性也可直接作為Method or Function的一個參數
+7. 封閉性也可直接作為Method or Function的一個參數
     ```PHP
     <?php
     $foo->bar(
