@@ -61,12 +61,14 @@ PSR整理
         {
         }
     ```
-5. Class名稱務必(MUST)以大寫開始駝峰命名(StudlyCaps)法來命名            
+5. Class名稱務必(MUST)以大寫開始駝峰命名(StudlyCaps)法來命名    
     ```PHP     
     // 範例
     <?php
+    namespace Vendor\Model;
+
     class Foo
-    {
+    { 
     }       
     ```
 6. Class常數務必(MUST)以全大寫命名，若以2個以上字命名，則以底線(underscore)分開之   
