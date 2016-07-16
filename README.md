@@ -94,7 +94,7 @@
     }       
     ```
 7. Method名稱(MUST)以小寫開始駝峰命名法(camelCase)   
-    ```PHP
+    ```PHP      
      <?php
     public function fooBarBaz()
     {
