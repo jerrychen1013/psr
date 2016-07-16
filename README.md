@@ -274,6 +274,7 @@
 5.  `{}`內的Code務必(MUST)要有一個縮排
 6.  右大括弧`}`務必(MUST)要獨自一行
 7.  **if, elseif, else**範例    
+            
     ```PHP
     <?php
     if ($expr1) {
@@ -305,7 +306,8 @@
             break;
     }
     ```
-9.  **while, do while**範例
+9.  **while, do while**範例     
+        
     ```PHP      
     <?php
     while ($expr) {
@@ -314,22 +316,26 @@
     do {
         // structure body;
     } while ($expr);
-    ```
+    ```     
+    
 10. **for**範例
+        
     ```PHP
     <?php
     for ($i = 0; $i < 10; $i++) {
         // for body
     }
-    ```
+    ```     
 11. **foreach**範例
+        
     ```PHP
     <?php
     foreach ($iterable as $key => $value) {
         // foreach body
     }
     ```
-12. **try, catch**範例
+12. **try, catch**範例      
+        
     ```PHP
     <?php
     try {
