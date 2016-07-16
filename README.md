@@ -433,9 +433,38 @@
 
 
 #PSR-4 Autoloading 
-##1. PSR-4 總覽(待續) 
+##1. PSR-4 總覽(待續)   
+###規格     
+1. Class一詞包含classes, interfacesm traits和其他類似結構
+2. 一個合格的class name如下所示：   
+    >\<NamespaceName>(\<SubNamespaceNames>)*\<ClassName>    
+    
+    1. 合格class name務必(MUST)要有一個top-level namespace name, 亦可稱作vendor namespace.
+    2. 合格class name也許(MAY)有一個以上sub-namespace names.
+    3. 合格class name務必(MUST)要有一個最終結尾的class name
+    4. 底線(underscore)在合格class name的任一部分都沒有特定意義
+    5. 縮寫字在合格class name也許(MAY)為大小寫的任意組合
+    6. 所有class names務必(MUST)以case-sensitive風格來參照      
+        
+3. 當根據一合格class name載檔時
+    1. 合格class name(namespace前綴)的連續一個或多個開頭namespace & sub-namespace names，  
+       不含開頭namespace separator，要和至少一個主資料夾(base directory)名稱一樣。
+    2. 在namespace前綴後的連續sub-namespace names要和主資料夾(base directory)的次資料夾(subdirectory)名稱一樣。
+       在此name separators代表directory separators.     
+       **次資料夾(subdirectory)務必(MUST)和sub-namespace名稱大小寫完全一樣**
+    3. 最終結尾之class name要和`.php`的檔案名稱完全一樣。
+4. Autoloader實作**務必不要(MUST Not)丟例外(exception)**，      
+   務必不要(MUST Not)給任何層次的errors，       
+   最好不要(Should Not)return值。       
+        
+###範例     
+|a|b|c|d|
+|:---:|:---:|:---:|:---:|
+|aaa|aaa|aaa|aaa|
+|bbb|bbb|bbb|bbb|
+|ccc|ccc|ccc|ccc|
+|ddd|ddd|ddd|ddd|
 
- 
 
 
 
