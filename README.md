@@ -447,8 +447,8 @@
     6. 所有class names務必(MUST)以case-sensitive風格來參照      
         
 3. 當根據一合格class name載檔時
-    1. 合格class name(namespace前綴)的連續一個或多個開頭namespace & sub-namespace names，  
-       不含開頭namespace separator，要和至少一個主資料夾(base directory)名稱一樣。
+    1. 合格class name(namespace前綴)中，連續一個或多個開頭namespace & sub-namespace names裡，  
+       不含開頭namespace separator，至少要和主資料夾(base directory)的其中一個名稱相同。
     2. 在namespace前綴後的連續sub-namespace names要和主資料夾(base directory)的次資料夾(subdirectory)名稱一樣。
        在此name separators代表directory separators.     
        **次資料夾(subdirectory)務必(MUST)和sub-namespace名稱大小寫完全一樣**
@@ -459,11 +459,11 @@
         
 ###範例     
 |完全合格class name|NAMESPACE 前綴|主資料夾(BASE DIRECTORY)|產生的檔案路徑|
-|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|---:|
 |\Acme\Log\Writer\File_Writer|Acme\Log\Writer|./acme-log-writer/lib/|./acme-log-writer/lib/File_Writer.php|
-|bbb|bbb|bbb|bbb|
-|ccc|ccc|ccc|ccc|
-|ddd|ddd|ddd|ddd|
+|\Aura\Web\Response\Status|Aura\Web|/path/to/aura-web/src/|/path/to/aura-web/src/Response/Status.php|
+|\Symfony\Core\Request|Symfony\Core|./vendor/Symfony/Core/|./vendor/Symfony/Core/Request.php|
+|\Zend\Acl|Zend|/usr/includes/Zend/|/usr/includes/Zend/Acl.php|
 
 
 
