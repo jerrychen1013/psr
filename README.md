@@ -437,7 +437,7 @@
 ###規格     
 1. Class一詞包含classes, interfacesm traits和其他類似結構
 2. 一個合格的class name如下所示：   
-    >\<NamespaceName>(\<SubNamespaceNames>)*\<ClassName>    
+    >\\<NamespaceName>(\\<SubNamespaceNames>)*\\<ClassName>    
     
     1. 合格class name務必(MUST)要有一個top-level namespace name, 亦可稱作vendor namespace.
     2. 合格class name也許(MAY)有一個以上sub-namespace names.
