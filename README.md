@@ -8,13 +8,13 @@
 >MAY: 也許         
         
 #目錄       
-* [PSR-1](#psr-1)        
-* [PSR-2](#psr-2)   
+* [PSR-1 Basic Coding Standard](#psr-1-basic-coding-standard)        
+* [PSR-2 Coding Style Guide](#psr-2-coding-style-guide)   
 * [PSR-3 Logger Interface](#psr-3-logger-interface)
 * [PSR-4 Autoloading](#psr-4-autoloading) 
   
-#PSR-1  
-**基本Coding標準(Basic Coding Standard)**
+#PSR-1 Basic Coding Standard
+**基本Coding標準**
 ##1. PSR-1 總覽    
 1. Files 務必(MUST)使用`<?php`或`<?`標籤
 2. Files 內的PHP code務必(MUST)使用無BOM的UTF-8
@@ -108,8 +108,8 @@
     }
     ```        
     
-#PSR-2
-**基本Coding標準(Basic Coding Standard)**
+#PSR-2 Coding Style Guide
+**編碼風格指導**
 ##1. PSR-2 總覽    
 ###檔案面(file)     
 1.  Code務必(MUST)使用**4個空白(spaces)當縮排，而非tab**     
