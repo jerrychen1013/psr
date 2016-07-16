@@ -8,8 +8,8 @@ PSR整理
 >MAY: 也許         
         
 #目錄       
-* [PSR1 Introduce](#PSR1-introduce)        
-* [PSR2 Introduce](#PSR2-introduce)        
+* [PSR1 Introduce](#psr1-introduce)        
+* [PSR2 Introduce](#psr2-introduce)        
   
 #PSR1 Introduce  
 **基本Coding標準(Basic Coding Standard)**
