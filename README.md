@@ -458,9 +458,9 @@
    最好不要(Should Not)return值。       
         
 ###範例     
-|a|b|c|d|
+|完全合格class name|NAMESPACE 前綴|主資料夾(BASE DIRECTORY)|產生的檔案路徑|
 |:---:|:---:|:---:|:---:|
-|aaa|aaa|aaa|aaa|
+|\Acme\Log\Writer\File_Writer|Acme\Log\Writer|./acme-log-writer/lib/|./acme-log-writer/lib/File_Writer.php|
 |bbb|bbb|bbb|bbb|
 |ccc|ccc|ccc|ccc|
 |ddd|ddd|ddd|ddd|
