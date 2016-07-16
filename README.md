@@ -8,10 +8,11 @@ PSR整理
 >MAY: 也許         
         
 #目錄       
-* [PSR-1  基本Coding標準(Basic Coding Standard)](#PSR-1  基本Coding標準(Basic Coding Standard))        
+* [PSR-1  基本Coding標準(Basic Coding Standard)](#PSR-1)        
 * [PSR-2  基本Coding標準(Basic Coding Standard)](#PSR-2  基本Coding標準(Basic Coding Standard))        
   
-#PSR-1  基本Coding標準(Basic Coding Standard) 
+#PSR-1  
+**基本Coding標準(Basic Coding Standard)**
 ##1. PSR-1 總覽    
 1. Files 務必(MUST)使用`<?php`或`<?`標籤
 2. Files 內的PHP code務必(MUST)使用無BOM的UTF-8
