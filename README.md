@@ -8,8 +8,8 @@ PSR整理
 >MAY: 也許         
         
 #目錄       
-*[PSR-1  基本Coding標準(Basic Coding Standard)](#PSR-1  基本Coding標準(Basic Coding Standard))        
-*[PSR-2  基本Coding標準(Basic Coding Standard)](#PSR-2  基本Coding標準(Basic Coding Standard))        
+* [PSR-1  基本Coding標準(Basic Coding Standard)](#PSR-1  基本Coding標準(Basic Coding Standard))        
+* [PSR-2  基本Coding標準(Basic Coding Standard)](#PSR-2  基本Coding標準(Basic Coding Standard))        
   
 #PSR-1  基本Coding標準(Basic Coding Standard) 
 ##1. PSR-1 總覽    
