@@ -413,6 +413,7 @@
     };
     ```     
 7. 封閉性也可直接作為Method or Function的一個參數
+        
     ```PHP
     <?php
     $foo->bar(
