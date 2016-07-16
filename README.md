@@ -241,7 +241,8 @@
             // method body
         }
     }
-    ``` 
+    ```     
+        
 ###呼叫Method or Function
 1. Method or Function和括弧`()`之間務必不可(MUST Not)有空格
 2. 左括弧`(`後不可有空格；右括弧`)`前不可有空格
