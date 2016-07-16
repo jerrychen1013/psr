@@ -8,10 +8,10 @@ PSR整理
 >MAY: 也許         
         
 #目錄       
-* [PSR-1](#PSR\-1)        
-* [PSR-2](#PSR\-2)        
+* [PSR1 Introduce](#PSR1-introduce)        
+* [PSR2 Introduce](#PSR2-introduce)        
   
-#PSR-1  
+#PSR1 Introduce  
 **基本Coding標準(Basic Coding Standard)**
 ##1. PSR-1 總覽    
 1. Files 務必(MUST)使用`<?php`或`<?`標籤
@@ -95,7 +95,7 @@ PSR整理
     ```
 7. Method名稱(MUST)以小寫開始駝峰命名法(camelCase)    
     
-#PSR-2  
+#PSR2 Introduce 
 **基本Coding標準(Basic Coding Standard)**
 ##1. PSR-2 總覽    
 ###檔案面(file)     
