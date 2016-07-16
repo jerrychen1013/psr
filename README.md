@@ -94,13 +94,18 @@
     }       
     ```
 7. Method名稱(MUST)以小寫開始駝峰命名法(camelCase)   
-    ```PHP      
-     <?php
-    public function fooBarBaz()
+   ```PHP
+    <?php
+    namespace Vendor\Package;
+    
+    class ClassName
     {
-        // method body
+        public function fooBarBaz($arg1, &$arg2, $arg3 = [])
+        {
+            // method body
+        }
     }
-    ```         
+    ```        
     
 #PSR-2
 **基本Coding標準(Basic Coding Standard)**
