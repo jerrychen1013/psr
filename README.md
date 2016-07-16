@@ -99,7 +99,7 @@
     
     class ClassName
     {
-        public function fooBarBaz($arg1, &$arg2, $arg3 = [])
+        public function fooBarBaz()
         {
             // method body
         }
