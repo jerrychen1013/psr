@@ -8,8 +8,8 @@ PSR整理
 >MAY: 也許         
         
 #目錄       
-* [PSR-1  基本Coding標準(Basic Coding Standard)](#PSR-1)        
-* [PSR-2  基本Coding標準(Basic Coding Standard)](#PSR-2  基本Coding標準(Basic Coding Standard))        
+* [PSR-1](#PSR\-1)        
+* [PSR-2](#PSR\-2)        
   
 #PSR-1  
 **基本Coding標準(Basic Coding Standard)**
@@ -95,7 +95,8 @@ PSR整理
     ```
 7. Method名稱(MUST)以小寫開始駝峰命名法(camelCase)    
     
-#PSR-2  基本Coding標準(Basic Coding Standard) 
+#PSR-2  
+**基本Coding標準(Basic Coding Standard)**
 ##1. PSR-2 總覽    
 ###檔案面(file)     
 1.  Code務必(MUST)使用**4個空白(spaces)當縮排，而非tab**     
