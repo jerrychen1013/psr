@@ -1,5 +1,5 @@
-# PSR
-PSR整理   
+# PSR整理(PHP Standards Recommendations)
+        
 名詞：  
 >MUST: 務必     
 >MUST Not: 務必不要     
@@ -8,10 +8,10 @@ PSR整理
 >MAY: 也許         
         
 #目錄       
-* [PSR-1 Introduce](#psr-1-introduce)        
-* [PSR-2 Introduce](#psr-2-introduce)        
+* [PSR-1](#psr-1-introduce)        
+* [PSR-2](#psr-2-introduce)        
   
-#PSR1 Introduce  
+#PSR-1  
 **基本Coding標準(Basic Coding Standard)**
 ##1. PSR-1 總覽    
 1. Files 務必(MUST)使用`<?php`或`<?`標籤
@@ -95,7 +95,7 @@ PSR整理
     ```
 7. Method名稱(MUST)以小寫開始駝峰命名法(camelCase)    
     
-#PSR-2 Introduce 
+#PSR-2
 **基本Coding標準(Basic Coding Standard)**
 ##1. PSR-2 總覽    
 ###檔案面(file)     
