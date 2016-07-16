@@ -11,9 +11,9 @@ PSR整理
 6. Class常數務必(MUST)以全大寫命名，若以2個以上字命名，則以底線(underscore)分開之
 7. Method名稱(MUST)以小寫開始駝峰命名法(camelCase)
 
-##2. Files
->Files 務必(MUST)使用`<?php`或`<?`標籤  
+##2. Files  
 ###2.1 PHP標籤
+  >Files 務必(MUST)使用`<?php`或`<?`標籤 
 ###2.2 字元編碼
 ###2.3 賦值(Side Effects)
 
