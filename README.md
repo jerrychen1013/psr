@@ -263,6 +263,7 @@
         $muchLongerArgument
     );
     ```     
+        
 ###控制結構(Control Structures)，例如if-else, switch, while     
 1.  控制結構關鍵字(if, switch...)之後務必(MUST)要有一個空白
 2.  左括弧`(`**後**務必不要(MUST Not)有一個空白
@@ -272,7 +273,7 @@
     左大括弧`{`和控制結構關鍵字要同一行;
 5.  `{}`內的Code務必(MUST)要有一個縮排
 6.  右大括弧`}`務必(MUST)要獨自一行
-7.  **if, elseif, else**範例
+7.  **if, elseif, else**範例    
     ```PHP
     <?php
     if ($expr1) {
@@ -282,7 +283,7 @@
     } else {
         // else body;
     }
-    ```
+    ```     
 8.  **switch, case**範例
     ```PHP
     <?php
@@ -338,6 +339,7 @@
         // catch body
     }
     ```     
+        
 ###封閉性(Closures)
 1. function後務必(MUST)有一個空格；use的前後務必(MUST)有一個空格
 2. 左大括弧`{`務必(MUST)和function關鍵字同行；右大括弧`}`務必(MUST)獨自一行
