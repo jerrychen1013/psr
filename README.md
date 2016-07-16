@@ -5,7 +5,27 @@ PSR整理
 ##1. PSR-1 總覽    
 1. Files 務必(MUST)使用`<?php`或`<?`標籤
 2. Files 內的PHP code務必(MUST)使用無BOM的UTF-8
-3. Files 最好(Should)只用以宣告某物（例如物件、方法、常數）或賦值（例如產生輸出、改變ini設定），但最好不要(Shouldnot)同時做這兩件事
+3. Files 最好(Should)只用以宣告Symbols（例如物件、方法、常數）或賦值（例如產生輸出、改變ini設定），但最好不要(Shouldnot)同時做這兩件事  
+    **A. 宣告Symbols（例如物件、方法、常數）**  
+```     
+<?php   
+    // side effect: change ini settings 
+    ini_set('error_reporting', E_ALL);
+
+    // side effect: loads a file
+    include "file.php";
+
+    // side effect: generates output
+    echo "<html>\n";
+
+    // declaration
+    function foo()
+    {
+        // function body
+    }
+```     
+    **B. 賦值(Side effect)，例如產生輸出、改變ini設定**     
+        fdf
 4. Namespaces 和 classes 務必(MUST)按照PSR:[PSR-0, PSR-4]的autoloading規範
 5. Class名稱務必(MUST)以大寫開始駝峰命名(StudlyCaps)法來命名
 6. Class常數務必(MUST)以全大寫命名，若以2個以上字命名，則以底線(underscore)分開之
