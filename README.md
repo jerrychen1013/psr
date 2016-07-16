@@ -6,7 +6,7 @@ PSR整理
 1. Files 務必(MUST)使用`<?php`或`<?`標籤
 2. Files 內的PHP code務必(MUST)使用無BOM的UTF-8
 3. Files 最好(Should)只用以宣告Symbols（例如物件、方法、常數）或賦值（例如產生輸出、改變ini設定）      
-   但最好不要(Shouldnot)同時做這兩件事    
+   但最好不要(Should not)同時做這兩件事    
     ```     
     同時做宣告和賦值的範例  
     <?php   
