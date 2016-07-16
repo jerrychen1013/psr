@@ -8,8 +8,8 @@ PSR整理
 >MAY: 也許         
         
 #目錄       
-* [PSR1 Introduce](#psr1-introduce)        
-* [PSR2 Introduce](#psr2-introduce)        
+* [PSR-1 Introduce](#psr-1-introduce)        
+* [PSR-2 Introduce](#psr-2-introduce)        
   
 #PSR1 Introduce  
 **基本Coding標準(Basic Coding Standard)**
@@ -95,7 +95,7 @@ PSR整理
     ```
 7. Method名稱(MUST)以小寫開始駝峰命名法(camelCase)    
     
-#PSR2 Introduce 
+#PSR-2 Introduce 
 **基本Coding標準(Basic Coding Standard)**
 ##1. PSR-2 總覽    
 ###檔案面(file)     
