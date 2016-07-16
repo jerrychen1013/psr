@@ -435,14 +435,16 @@
 #PSR-4 Autoloading 
 ##1. PSR-4 總覽     
 ###這部分看官方文件容易混淆，主要知道namespace(以\Acme\Log\Writer\File_Writer為例)      
-1. 前半部要和資料夾名稱一樣
+1. 前半部要和資料夾名稱一樣     
    `\Acme\Log  == ./acme-log/`     
    或       
    `\Acme\Log\  == ./acme/log/`     
+        
 2. 次資料夾名稱要和資料夾名稱一樣   
    `\Acme\Log\Writer  == ./acme-log/src/writer`(不要懷疑，中間可以有未宣告在namespace的次資料夾)     
    或       
-   `\Acme\Log\Writer  == ./acme/log/writer`
+   `\Acme\Log\Writer  == ./acme/log/writer`     
+        
 3. 最後的class名稱要和檔名一樣  
    `\File_Writer == File_Writer.php`    
         
