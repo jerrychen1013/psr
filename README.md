@@ -9,7 +9,7 @@ PSR整理
 3. Files 最好(Should)只用以宣告Symbols（例如物件、方法、常數）或賦值（例如產生輸出、改變ini設定）      
    但最好不要(Should not)同時做這兩件事    
     ```PHP     
-    **同時做宣告和賦值的範例**  
+    /**同時做宣告和賦值的範例*/  
     <?php   
         // 賦值(Side effect): change ini settings 
         ini_set('error_reporting', E_ALL);
@@ -27,7 +27,7 @@ PSR整理
         }
         
         
-    **只做宣告而不賦值的範例**      
+    /**只做宣告而不賦值的範例*/      
     <?php
     // 宣告Symbols
     function foo()
@@ -53,20 +53,21 @@ PSR整理
         class Foo
         {
         }       
-
+        
+    // PHP 5.2.x(含)之前的版本:
     <?php
-        // PHP 5.2.x(含)之前的版本:
+        
         class Vendor_Model_Foo
         {
         }
     ```
-5. Class名稱務必(MUST)以大寫開始駝峰命名(StudlyCaps)法來命名        
+5. Class名稱務必(MUST)以大寫開始駝峰命名(StudlyCaps)法來命名            
     ```PHP     
     // 範例
     <?php
-        class Foo
-        {
-        }       
+    class Foo
+    {
+    }       
     ```
 6. Class常數務必(MUST)以全大寫命名，若以2個以上字命名，則以底線(underscore)分開之   
     ```PHP     
