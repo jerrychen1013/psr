@@ -93,7 +93,13 @@
         const DATE_APPROVED = '2012-06-01';
     }       
     ```
-7. Method名稱(MUST)以小寫開始駝峰命名法(camelCase)    
+7. Method名稱(MUST)以小寫開始駝峰命名法(camelCase)   
+    ```PHP
+    public function fooBarBaz()
+    {
+        // method body
+    }
+    ```
     
 #PSR-2
 **基本Coding標準(Basic Coding Standard)**
