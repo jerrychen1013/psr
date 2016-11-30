@@ -2,10 +2,15 @@
         
 名詞：  
 >MUST: 務必     
->MUST Not: 務必不要     
->Should: 最好       
+        
+>MUST Not: 務必不要
+        
+>Should: 最好
+        
 >Should Not: 最好不要       
->MAY: 也許         
+        
+>MAY: 也許
+        
         
 #目錄       
 * [PSR-1 Basic Coding Standard](#psr-1-basic-coding-standard)        
@@ -14,10 +19,15 @@
 * [PSR-4 Autoloading](#psr-4-autoloading) 
   
 #PSR-1 Basic Coding Standard
+
 **基本Coding標準**
+
 ##1. PSR-1 總覽    
+
 1. Files 務必(MUST)使用`<?php`或`<?`標籤
+
 2. Files 內的PHP code務必(MUST)使用無BOM的UTF-8
+
 3. Files 最好(Should)只用以宣告Symbols（例如物件、方法、常數）或賦值（例如產生輸出、改變ini設定）      
    但最好不要(Should not)同時做這兩件事    
     ```PHP     
