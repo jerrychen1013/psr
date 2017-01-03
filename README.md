@@ -13,13 +13,12 @@
         
         
 #目錄       
-* [PSR-1 Basic Coding Standard](#psr-1-basic-coding-standard)        
+* [PSR-1 Basic Coding Standard](#psr-1-basic-coding-standard使用標準)        
 * [PSR-2 Coding Style Guide](#psr-2-coding-style-guide)   
 * [PSR-3 Logger Interface](#psr-3-logger-interface)
 * [PSR-4 Autoloading](#psr-4-autoloading) 
   
-#PSR-1 Basic Coding Standard
-
+#PSR-1 Basic Coding Standard使用標準
 **基本Coding標準**
 
 ##1. PSR-1 總覽    
