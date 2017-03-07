@@ -21,6 +21,7 @@
 #PSR-1 Basic Coding Standard使用標準
 **基本Coding標準**
 
+
 ##1. PSR-1 總覽    
 
 1. Files 務必(MUST)使用`<?php`或`<?`標籤
